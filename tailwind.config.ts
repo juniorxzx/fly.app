@@ -11,11 +11,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-
+        "primary": "#5a189a",
+        "secondary": "#9d4edd",
         "dark-gray": "#141414",
-        "soft-orange": "#fec89a",
-        "light-salmon": "#faa381",
         "off-white": "#f8f7ff",
+      },
+      boxShadow: {
+        "inner-soft": " 0 0 10px 0 rgba(0, 0, 0, 0.1)",
       },
     },
   },
